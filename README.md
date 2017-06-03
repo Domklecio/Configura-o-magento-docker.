@@ -45,7 +45,7 @@ apt-get install mysql-server
 touch /var/run/mysqld/mysqld.sock
 chown -R mysql /var/run/mysqld
 chmod +x /var/run/mysqld/mysqld.sock
-	
+/etc/init.d/mysql restart	
 
 apt-get install mariadb-server mariadb
 mysql_secure_installation
